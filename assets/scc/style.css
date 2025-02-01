@@ -4,9 +4,10 @@
     margin: 0px;
     padding: 0px;
 }
-header {
+
+header 
+{
     height: 300px;
-  
     background-color: grey;
     background-image: url(./../images/shell.jpg)
     background-repeat: no-repeat;
