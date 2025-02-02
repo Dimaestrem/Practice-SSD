@@ -26,21 +26,22 @@ header
 
   h4
   {
-    display: block;
+    display: inline;
     color: #926239;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
     
   }
   button
   {
-    
-    
-    margin: 30px;
+    display: block;
+    margin: 0 auto;
     padding: 15px 20px;
     color: #926239;
     font-size: 15px;
     border-radius: 12px;
     background-color: white;
+    position: ;
   }
   button:hover
   {
@@ -50,7 +51,7 @@ header
 
   p
   {
-    display: inline-block;
+    display: block;
     background-color: #926239;
     padding: 20px;
     font-size: 14px;
@@ -73,6 +74,22 @@ header
     background-color: #926239;
     width: 450px;
     height: 100px;
-
-
+  }
+  .parent1
+  {
+    font-size: 0;
+  }
+  .child1
+  {
+    display: inline-block;
+    width: calc(100% / 3);
+    font-size: 15px;
+    background-color: #926239;
+  }
+  .child2
+  {
+    display: inline-block;
+    width: calc(100% / 3);
+    font-size: 15px;
+    background-color: white;
   }
