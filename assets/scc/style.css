@@ -30,8 +30,8 @@ header
     color: #926239;
     padding: 20px;
     margin: 20px;
-    
   }
+
   button
   {
     display: block;
@@ -42,53 +42,57 @@ header
     border-radius: 12px;
     background-color: white;
   }
+
   button:hover
   {
     background-color: #926239;
     color: white; 
   }
 
-  p
-  {
-    display: block;
-    background-color: #926239;
-    padding: 20px;
-    font-size: 14px;
-    text-align: center;
-  }
-  p1
-  {
-    display: block;
-    background-color: white;
-    padding: 20px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  p2
-  {
-    display: inline-block;
-    margin: 10px;
-    padding: 30px;
-    background-color: #926239;
-    width: 450px;
-    height: 100px;
-  }
   .parent1
   {
     font-size: 0;
   }
+
   .child1
+  {
+    display: block;
+    background-color: #926239;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+  }
+
+  .child2
+  {
+    display: block;
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #926239;
+  }
+
+  .parent2
+  {
+    font-size: 0;
+  }
+
+  .child3
   {
     display: inline-block;
     width: calc(100% / 3);
     font-size: 15px;
     background-color: #926239;
+    color: white;
   }
-  .child2
+  
+  .child4
   {
     display: inline-block;
     width: calc(100% / 3);
     font-size: 15px;
     background-color: white;
+    color: #926239;
   }
