@@ -24,29 +24,52 @@ header
     margin: 10px;
   }
 
-  h4
+  h2
   {
     display: inline;
     color: #926239;
     padding: 20px;
     margin: 20px;
+    font-size: 15px;
+    font-weight: normal;
   }
 
   button
   {
     display: block;
-    margin: 0 auto;
-    padding: 15px 20px;
+    margin: 20px auto;
+    padding: 10px 15px;
     color: #926239;
     font-size: 15px;
     border-radius: 12px;
     background-color: white;
+    border: 1px solid #926239;
   }
 
   button:hover
   {
     background-color: #926239;
     color: white; 
+  }
+
+  p
+  {
+    display: block;
+    background-color: #926239;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+  }
+
+  a
+  {
+    display: block;
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #926239;
   }
 
   .parent1
@@ -56,43 +79,20 @@ header
 
   .child1
   {
-    display: block;
+    display: inline-block;
+    width: calc(100% / 3);
+    font-size: 15px;
     background-color: #926239;
-    padding: 20px;
-    font-size: 14px;
-    text-align: center;
     color: white;
+    padding: 20px;
   }
 
   .child2
   {
-    display: block;
+    display: inline-block;
+    width: calc(100% / 3);
+    font-size: 15px;
     background-color: white;
+    color: #926239;
     padding: 20px;
-    font-size: 14px;
-    text-align: center;
-    color: #926239;
-  }
-
-  .parent2
-  {
-    font-size: 0;
-  }
-
-  .child3
-  {
-    display: inline-block;
-    width: calc(100% / 3);
-    font-size: 15px;
-    background-color: #926239;
-    color: white;
-  }
-  
-  .child4
-  {
-    display: inline-block;
-    width: calc(100% / 3);
-    font-size: 15px;
-    background-color: white;
-    color: #926239;
   }
