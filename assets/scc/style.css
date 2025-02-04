@@ -77,22 +77,22 @@ header
     font-size: 0;
   }
 
-  .child1
+  .child1, .child2
   {
     display: inline-block;
     width: calc(100% / 3);
     font-size: 15px;
+    padding: 20px;
+  }
+  
+  .child1
+  {
     background-color: #926239;
     color: white;
-    padding: 20px;
   }
 
   .child2
   {
-    display: inline-block;
-    width: calc(100% / 3);
-    font-size: 15px;
     background-color: white;
     color: #926239;
-    padding: 20px;
   }
